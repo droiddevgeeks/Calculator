@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="equal">=</string>
+    <string name="invalid_op">Invalid operation</string>
+    <string name="divideby0">Divide by zero</string>
+</resources>
