@@ -54,6 +54,9 @@ public class KeyboardView extends GridView implements AdapterView.OnItemClickLis
                 case "CL":
                     _keyClickedListener.onClear();
                     break;
+                case "":
+                    // do nothing
+                    break;
                 default:
                     _keyClickedListener.onUserInput(position, keyPressed);
                     break;
